@@ -1,10 +1,13 @@
 ###################################################################################
-### class 10-21-15
 ###################################################################################
+#CPK.csv file was used for this script.
+#The script reshape the data from wide to long format 
+#create a histogram for the long data 
+#Convert long format data to wide
+
 Cycler1 <- read.csv( file.choose(), header=TRUE ) #read the file
 head (Cycler1) # display six rows of the data
 
-### Changing a wide file into a long file
 
 # grab the cpk1 data
 #to get first five columns (since we want all rows we keep the left side blank)
